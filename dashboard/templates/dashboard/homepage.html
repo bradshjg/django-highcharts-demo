@@ -1,0 +1,39 @@
+{% load static %}
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href="{% static 'dashboard/css/highcharts.css' %}" rel="stylesheet">
+  <title>Demo Highcharts Dashboard</title>
+</head>
+
+<body>
+  <h1>Dashboard</h1>
+
+  <figure class="highcharts-figure">
+    <div id="barchart-container"></div>
+    <p class="highcharts-description">
+        Bar chart showing horizontal columns. This chart type is often
+        beneficial for smaller screens, as the user can scroll through the data
+        vertically, and axis labels are easy to read.
+    </p>
+  </figure>
+
+  <figure class="highcharts-figure">
+    <div id="piechart-container"></div>
+    <p class="highcharts-description">
+        This pie chart shows how the chart legend can be used to provide
+        information about the individual slices.
+    </p>
+  </figure>
+  
+  
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <script src="{% static 'dashboard/js/highcharts.js' %}"></script>
+</body>
+</html>
