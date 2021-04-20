@@ -1,9 +1,11 @@
 # django-highcharts-demo
 Django Highcharts Demo
 
+https://user-images.githubusercontent.com/916017/115337993-9f39c980-a167-11eb-91fe-8465ce00e328.mov
+
 ## Demo
 
-Run `./manage.py runserver` and visit `localhost:8000` to see the demo, a random bar chart and pie chart should be displayed.
+Run `./manage.py runserver` and visit `localhost:8000` to see the demo, a random bar chart and pie chart should be displayed and updated ever 5 seconds.
 
 ## Overview
 
