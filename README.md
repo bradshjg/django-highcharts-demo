@@ -5,7 +5,7 @@ https://user-images.githubusercontent.com/916017/115337993-9f39c980-a167-11eb-91
 
 ## Demo
 
-Run `./manage.py runserver` and visit `localhost:8000` to see the demo, a random bar chart and pie chart should be displayed and updated ever 5 seconds.
+Run `./manage.py runserver` and visit `localhost:8000` to see the demo, a random bar chart and pie chart should be displayed and updated every 5 seconds (no page reload necessary).
 
 ## Overview
 
